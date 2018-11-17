@@ -145,6 +145,12 @@
 		    <version>1.4.0</version>
 		</dependency>
 		
+		<dependency>
+		    <groupId>org.apache.rocketmq</groupId>
+		    <artifactId>rocketmq-client</artifactId>
+		    <version>4.2.0</version>
+		</dependency>
+		
 <!-- 		<dependency> -->
 <!-- 		    <groupId>com.github.kuhn-he</groupId> -->
 <!-- 		    <artifactId>elastic-job-lite-spring-boot-starter</artifactId> -->
