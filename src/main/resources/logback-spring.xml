@@ -11,7 +11,7 @@
     </appender>
     <!-- 按照每天生成日志文件 -->
     <appender name="FILE"  class="ch.qos.logback.core.rolling.RollingFileAppender">
-            <File>springboot.log</File>
+            <File>target/logs/springboot.log</File>
 		    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
 		      <FileNamePattern>springboot.%i.log</FileNamePattern>
 		      <MinIndex>1</MinIndex>
