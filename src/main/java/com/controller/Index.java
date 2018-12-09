@@ -1,7 +1,4 @@
 package com.controller;
-import java.io.IOException;
-
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.shiro.SecurityUtils;
@@ -77,5 +74,10 @@ public class Index extends BaseController{
 	@RequestMapping(value="/success",method=RequestMethod.GET)
 	public String success(){
 		return "success";
+	}
+	
+	@RequestMapping(value="/imageString",method=RequestMethod.GET)
+	public String imageString(){
+		return "imageString";
 	}
 }
